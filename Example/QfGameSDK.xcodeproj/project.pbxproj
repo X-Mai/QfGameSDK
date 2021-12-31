@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* QFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* QFAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* QFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* QFViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,8 +21,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		62438F621EBE007EF327B810 /* Pods_QfGameSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F6F6B044B09A66B4DD6FE5 /* Pods_QfGameSDK_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8F497964767BCAA07C567C39 /* Pods_QfGameSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4EFBB268ECBCFDD22A017B /* Pods_QfGameSDK_Example.framework */; };
+		D38DB2D0277DBAE00097E4C4 /* QFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DB2CE277DBADF0097E4C4 /* QFBaseViewController.m */; };
+		D38DB2D4277DBB010097E4C4 /* QFMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38DB2D1277DBB010097E4C4 /* QFMainViewController.xib */; };
+		D38DB2D5277DBB010097E4C4 /* QFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38DB2D2277DBB010097E4C4 /* QFMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022645DF1296C8A8668D4B23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		022645DF1296C8A8668D4B23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1262397C502FD7E91D457350 /* Pods-QfGameSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QfGameSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-QfGameSDK_Example/Pods-QfGameSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3C49F4FABA3DFBEC6672C5C1 /* Pods-QfGameSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QfGameSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QfGameSDK_Tests/Pods-QfGameSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D4EFBB268ECBCFDD22A017B /* Pods_QfGameSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QfGameSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,8 +52,6 @@
 		6003F59B195388D20070C39A /* QfGameSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QfGameSDK-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* QFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* QFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* QFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QFViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* QFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QFViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* QfGameSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QfGameSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,10 +61,14 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		772161135419DC42992EF3B4 /* Pods-QfGameSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QfGameSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-QfGameSDK_Example/Pods-QfGameSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		81341756B07FD58E22983935 /* QfGameSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QfGameSDK.podspec; path = ../QfGameSDK.podspec; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81341756B07FD58E22983935 /* QfGameSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QfGameSDK.podspec; path = ../QfGameSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D38DB2CE277DBADF0097E4C4 /* QFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFBaseViewController.m; sourceTree = "<group>"; };
+		D38DB2CF277DBADF0097E4C4 /* QFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFBaseViewController.h; sourceTree = "<group>"; };
+		D38DB2D1277DBB010097E4C4 /* QFMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QFMainViewController.xib; sourceTree = "<group>"; };
+		D38DB2D2277DBB010097E4C4 /* QFMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFMainViewController.m; sourceTree = "<group>"; };
+		D38DB2D3277DBB010097E4C4 /* QFMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFMainViewController.h; sourceTree = "<group>"; };
 		D5CFC402BA7737A69D437CE6 /* Pods-QfGameSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QfGameSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-QfGameSDK_Tests/Pods-QfGameSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E51DF994F81ECEF63CBD56B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E51DF994F81ECEF63CBD56B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E8F6F6B044B09A66B4DD6FE5 /* Pods_QfGameSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QfGameSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +106,6 @@
 				3C49F4FABA3DFBEC6672C5C1 /* Pods-QfGameSDK_Tests.debug.xcconfig */,
 				D5CFC402BA7737A69D437CE6 /* Pods-QfGameSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,9 +148,11 @@
 			children = (
 				6003F59C195388D20070C39A /* QFAppDelegate.h */,
 				6003F59D195388D20070C39A /* QFAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* QFViewController.h */,
-				6003F5A6195388D20070C39A /* QFViewController.m */,
+				D38DB2CF277DBADF0097E4C4 /* QFBaseViewController.h */,
+				D38DB2CE277DBADF0097E4C4 /* QFBaseViewController.m */,
+				D38DB2D3277DBB010097E4C4 /* QFMainViewController.h */,
+				D38DB2D2277DBB010097E4C4 /* QFMainViewController.m */,
+				D38DB2D1277DBB010097E4C4 /* QFMainViewController.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -209,6 +213,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				9C157AF1F4194A2639D110AE /* [CP] Embed Pods Frameworks */,
+				48F2C1C2601CCFB0354164D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +253,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "1006052895@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7AJE4JXNTC;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +267,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,7 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				D38DB2D4277DBB010097E4C4 /* QFMainViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -317,6 +327,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		48F2C1C2601CCFB0354164D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QfGameSDK_Example/Pods-QfGameSDK_Example-resources.sh",
+				"${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYResource.bundle",
+				"${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYLanguage.bundle",
+				"${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYCustomResource.bundle",
+				"${PODS_ROOT}/../../QfGameSDK/Assets/DJSDK2.0.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QYResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QYLanguage.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QYCustomResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DJSDK2.0.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QfGameSDK_Example/Pods-QfGameSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9C157AF1F4194A2639D110AE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,11 +358,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QfGameSDK_Example/Pods-QfGameSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/QfGameSDK/QfGameSDK.framework",
+				"${PODS_ROOT}/NIMSDK_LITE/NIMSDK/NIMSDK.framework",
+				"${PODS_ROOT}/QY_iOS_SDK/SDK/QYSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QfGameSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NIMSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QYSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,8 +402,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38DB2D5277DBB010097E4C4 /* QFMainViewController.m in Sources */,
 				6003F59E195388D20070C39A /* QFAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* QFViewController.m in Sources */,
+				D38DB2D0277DBAE00097E4C4 /* QFBaseViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,12 +533,17 @@
 			baseConfigurationReference = 772161135419DC42992EF3B4 /* Pods-QfGameSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2.1.1.2;
+				DEVELOPMENT_TEAM = 7AJE4JXNTC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QfGameSDK/QfGameSDK-Prefix.pch";
 				INFOPLIST_FILE = "QfGameSDK/QfGameSDK-Info.plist";
+				MARKETING_VERSION = 2.1.1.2;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "AllApp Dev";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +554,17 @@
 			baseConfigurationReference = 1262397C502FD7E91D457350 /* Pods-QfGameSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2.1.1.2;
+				DEVELOPMENT_TEAM = 7AJE4JXNTC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QfGameSDK/QfGameSDK-Prefix.pch";
 				INFOPLIST_FILE = "QfGameSDK/QfGameSDK-Info.plist";
+				MARKETING_VERSION = 2.1.1.2;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "AllApp Dev";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

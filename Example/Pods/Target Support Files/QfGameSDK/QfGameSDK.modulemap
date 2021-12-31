@@ -1,0 +1,6 @@
+framework module QfGameSDK {
+  umbrella header "QfGameSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

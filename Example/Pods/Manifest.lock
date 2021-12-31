@@ -1,0 +1,32 @@
+PODS:
+  - NIMSDK_LITE (8.8.3)
+  - QfGameSDK (2.0.1.7):
+    - NIMSDK_LITE (= 8.8.3)
+    - QY_iOS_SDK (~> 6.11.0)
+  - QY_iOS_SDK (6.11.0):
+    - NIMSDK_LITE (= 8.8.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - QfGameSDK (from `../`)
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - NIMSDK_LITE
+    - QY_iOS_SDK
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  QfGameSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NIMSDK_LITE: 40f02533dcacd7a61a9a84a7755db791fdb68633
+  QfGameSDK: 588b09d0f6950da7ea777635ab2deefa925c43d2
+  QY_iOS_SDK: 6bac560e5830c90e06f9af3fb80ec515faf71c85
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: e0983fcd0bc3914cedf8bbccfe9875809e75ba11
+
+COCOAPODS: 1.11.2

@@ -4,7 +4,8 @@ platform :ios, '9.0'
 
 target 'QfGameSDK_Example' do
   pod 'QfGameSDK', :path => '../'
-
+  
+  pod 'SVProgressHUD'
   target 'QfGameSDK_Tests' do
     inherit! :search_paths
 
