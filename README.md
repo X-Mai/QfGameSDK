@@ -1,10 +1,5 @@
 # 七风 iOS SDK 开发指南
 
-~~[~~![CI Status](https://img.shields.io/travis/1006052895@qq.com/QfGameSDK.svg?style=flat)](https://travis-ci.org/1006052895@qq.com/QfGameSDK)
-[![Version](https://img.shields.io/cocoapods/v/QfGameSDK.svg?style=flat)](https://cocoapods.org/pods/QfGameSDK)
-[![License](https://img.shields.io/cocoapods/l/QfGameSDK.svg?style=flat)](https://cocoapods.org/pods/QfGameSDK)
-[![Platform](https://img.shields.io/cocoapods/p/QfGameSDK.svg?style=flat)](https://cocoapods.org/pods/QfGameSDK)
-
 ## SDK介绍
 
 - 用于iOS游戏联运，主要提供用户系统、支付系统、游戏攻略、游戏礼包等
@@ -83,13 +78,13 @@ returnapp—djsdk{APP_ID}，其中{APP_ID}为您申请的SDK对应的 "游戏ID"
 //打开qq权限配置(白名单配置)
 <key>LSApplicationQueriesSchemes</key>
 <array>
-	<string>mqq</string>
+    <string>mqq</string>
 </array>
 
 //使用相机权限
 <key>NSCameraUsageDescription</key>
 <string>需要相机权限</string>
-    
+
 //麦克风使用权限
 <key>NSMicrophoneUsageDescription</key>
 <string>需要麦克风权限</string>
