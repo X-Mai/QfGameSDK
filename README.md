@@ -179,18 +179,18 @@ returnapp—djsdk{APP_ID}，其中{APP_ID}为您申请的SDK对应的 "游戏ID"
 <font color=#FF0000>注：创建角色，需要调用此API及时同步创角信息到SDK，djKind为：DJCreateRole</font>
 
 ```
-   [DJSDK djKind:DJCreateRole     //DJCreateRole：创角
-        djRole:@"角色ID"     //必须，角色ID
-        djRoleName:@"角色名称" //必须，角色名称
-        djRoleRank:@"0" //必须，创角时候对应角色等级
-        djAreaId:@"区服ID"    //必须  区服ID 
-        djAreaName:@"区服名称" //必须    区服名称
-        success:^(id response) {
-            NSString *msg = [response objectForKey:@"msg"];
-            NSLog(@"角色信息同步成功%@", msg);
-    } fail:^(NSString *errorStr) {
-        NSLog(@"创角失败:%@",errorStr);
-    }];
+[DJSDK djKind:DJCreateRole     //DJCreateRole：创角
+       djRole:@"角色ID"     //必须，角色ID
+       djRoleName:@"角色名称" //必须，角色名称
+       djRoleRank:@"0" //必须，创角时候对应角色等级
+       djAreaId:@"区服ID"    //必须  区服ID 
+       djAreaName:@"区服名称" //必须    区服名称
+       success:^(id response) {
+           NSString *msg = [response objectForKey:@"msg"];
+           NSLog(@"角色信息同步成功%@", msg);
+     } fail:^(NSString *errorStr) {
+       NSLog(@"创角失败:%@",errorStr);
+}];
 ```
 
 #### 6、升级-角色等级升级上报
@@ -198,18 +198,18 @@ returnapp—djsdk{APP_ID}，其中{APP_ID}为您申请的SDK对应的 "游戏ID"
 <font color=#FF0000>注：角色升级时，需要调用此API及时同步角色信息到SDK，djKind为：DJupdateLevel</font>
 
 ```
-   [DJSDK djKind:DJupdateLevel     //DJupdateLevel：升级
-        djRole:@"角色ID"     //必须，角色ID
-        djRoleName:@"角色名称" //必须，角色名称
-        djRoleRank:@"20" //必须，创角时候对应角色等级
-        djAreaId:@"区服ID"    //必须  区服ID 
-        djAreaName:@"区服名称" //必须    区服名称
-        success:^(id response) {
-            NSString *msg = [response objectForKey:@"msg"];
-            NSLog(@"角色信息同步成功%@", msg);
-    } fail:^(NSString *errorStr) {
+[DJSDK djKind:DJupdateLevel     //DJupdateLevel：升级
+       djRole:@"角色ID"     //必须，角色ID
+       djRoleName:@"角色名称" //必须，角色名称
+       djRoleRank:@"20" //必须，创角时候对应角色等级
+       djAreaId:@"区服ID"    //必须  区服ID 
+       djAreaName:@"区服名称" //必须    区服名称
+       success:^(id response) {
+           NSString *msg = [response objectForKey:@"msg"];
+           NSLog(@"角色信息同步成功%@", msg);
+   } fail:^(NSString *errorStr) {
         NSLog(@"创角失败:%@",errorStr);
-    }];
+}];
 ```
 
 #### 7、购买道具
@@ -217,23 +217,22 @@ returnapp—djsdk{APP_ID}，其中{APP_ID}为您申请的SDK对应的 "游戏ID"
 道具购买支付结果-是否发放道具，以服务端回调查询结果为准 <font color=#FF0000>金额单位：元</font>
 
 ```
-     NSDictionary *infoDic = @{
-        @"server":@"区服ID",//必需，区服ID
-        @"serverName":@"区服名称",//必须，区服名称
-        @"role":@"角色ID",//必需，角色ID
-        @"roleName":@"角色名称",//必须，角色名称
-        @"productName":@"ios专用道具",//必需，商品名字
-        @"productDesc":@"该道具仅能在ios下购买",//必需，商品描述
-        @"attachString":@"20170221",//必需,CP扩展参数 (必传CP订单号)
-        @"productId":@"DJ.Game08",//必须，内购产品ID  必须传配置对应合法内购产品ID
-        @"money":_payAmoutTextFiled.text//必须，金额
-        };
-
-        [DJSDK djPayForSomeThings:infoDic success:^(id response) {
-            NSLog(@"支付成功-response:%@",response);
-        } fail:^(NSString *errorStr) {
-            NSLog(@"支付失败:%@",errorStr);
-        }];
+NSDictionary *infoDic = @{
+   @"server":@"区服ID",//必需，区服ID
+   @"serverName":@"区服名称",//必须，区服名称
+   @"role":@"角色ID",//必需，角色ID
+   @"roleName":@"角色名称",//必须，角色名称
+   @"productName":@"ios专用道具",//必需，商品名字
+   @"productDesc":@"该道具仅能在ios下购买",//必需，商品描述
+   @"attachString":@"20170221",//必需,CP扩展参数 (必传CP订单号)
+   @"productId":@"DJ.Game08",//必须，内购产品ID  必须传配置对应合法内购产品ID
+   @"money":_payAmoutTextFiled.text//必须，金额
+};
+[DJSDK djPayForSomeThings:infoDic success:^(id response) {
+   NSLog(@"支付成功-response:%@",response);
+  } fail:^(NSString *errorStr) {
+   NSLog(@"支付失败:%@",errorStr);
+}];
 ```
 
 #### 8、切换账号
@@ -243,11 +242,11 @@ SDK退出当前登录账号，进行切换账号操作
 <font color=#FF0000>注：游戏需要切换账号登录情况下调用此API</font>
 
 ```
-    [DJSDK djSDKLogout:^(id response) {
-        NSLog(@"退出SDK成功:%@",response);
-    } fail:^(NSString *errorStr) {
-        NSLog(@"退出登录失败:%@",errorStr);
-    }];
+[DJSDK djSDKLogout:^(id response) {
+   NSLog(@"退出SDK成功:%@",response);
+  } fail:^(NSString *errorStr) {
+   NSLog(@"退出登录失败:%@",errorStr);
+}];
 ```
 
 #### 9、实名认证接口(此项游戏接入时需沟通确定：是否通过SDK弹出实名认证、还是游戏内部弹出实名认证)
@@ -257,10 +256,10 @@ SDK退出当前登录账号，进行切换账号操作
 <font color=#FF0000>注：需要在SDK登录完成后调用（游戏方可根据实名认证逻辑在适当位置弹出，eg：玩家进入游戏后，在游戏中玩了指定时间，比如1小时的情况下，调用此API来进行获取实名认证状态</font>
 
 ```
-    [DJSDK djAuthenRealNameInfo:^(id response) {
-        //json格式(code：1->认证通过  -1->未认证;idnum:身份证号码,未认证的返回为空;age:年龄，未认证返回为空)
-        NSLog(@"实名认证回调给CP：%@",response);
-    }];
+[DJSDK djAuthenRealNameInfo:^(id response) {
+   //json格式(code：1->认证通过  -1->未认证;idnum:身份证号码,未认证的返回为空;age:年龄，未认证返回为空)
+   NSLog(@"实名认证回调给CP：%@",response);
+}];
 ```
 
 ---
