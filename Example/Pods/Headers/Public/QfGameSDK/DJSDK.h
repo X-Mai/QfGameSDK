@@ -1,1 +1,1 @@
-../../../../../QfGameSDK/Classes/DJSDK.h
+../../../QfGameSDK/QfGameSDK/Classes/DJSDK.h

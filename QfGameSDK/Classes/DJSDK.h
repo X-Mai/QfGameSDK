@@ -34,14 +34,6 @@ typedef void (^djSDKFailureBlock)(NSString *errorStr);
 
 @interface DJSDK : NSObject
 
-//placeholder_property//
-//placeholder_property//
-//placeholder_property//
-//placeholder_property//
-//placeholder_property//
-//placeholder_property//
-//placeholder_property//
-
 @property(nonatomic, assign) id<DJSDKDelegate> djSDKDelegate;
 
 +(instancetype)djsharedInstance;
@@ -77,9 +69,27 @@ typedef void (^djSDKFailureBlock)(NSString *errorStr);
  */
 +(void)djShowMemPanel;
 
-
+/*-----------------创角、升级分开-------------------*/
 /**
  * 创角 or 角色升级同步角色等级信息到SDK服务器
+ * @param djroleType   创角/升级
+ * @param djroleId   角色ID
+ * @param djroleName 角色名称
+ * @param djroleRank 角色等级
+ * @param djareaId   区服ID
+ * @param djareaName 区服名称
+ */
++(void)djKind:(DJSynType )djroleType
+       djRole:(NSString *)djroleId
+   djRoleName:(NSString *)djroleName
+   djRoleRank:(NSString *)djroleRank
+     djAreaId:(NSString *)djareaId
+   djAreaName:(NSString *)djareaName
+      djsuccess:(djSDKSuccessBlock)djsuccessBlock
+         djfail:(djSDKFailureBlock)djfailBlock;
+
+/**
+ * 创角 or 角色升级同步角色等级信息到SDK服务器  请使用最新API,此API已过时
  * @param djroleId   角色ID
  * @param djroleName 角色名称
  * @param djroleRank 角色等级
@@ -140,27 +150,6 @@ typedef void (^djSDKFailureBlock)(NSString *errorStr);
 
 
 
-/*-----------------备用：创角、升级分开-------------------*/
-/**
- * 创角 or 角色升级同步角色等级信息到SDK服务器
- * @param djroleType   创角/升级
- * @param djroleId   角色ID
- * @param djroleName 角色名称
- * @param djroleRank 角色等级
- * @param djareaId   区服ID
- * @param djareaName 区服名称
- */
-+(void)djKind:(DJSynType )djroleType
-       djRole:(NSString *)djroleId
-   djRoleName:(NSString *)djroleName
-   djRoleRank:(NSString *)djroleRank
-     djAreaId:(NSString *)djareaId
-   djAreaName:(NSString *)djareaName
-      djsuccess:(djSDKSuccessBlock)djsuccessBlock
-         djfail:(djSDKFailureBlock)djfailBlock;
-
-
-
 
 
 
@@ -180,13 +169,6 @@ typedef void (^djSDKFailureBlock)(NSString *errorStr);
  *sdk-demo展示SDK相关信息     此项SDK接入者无需接入
  */
 +(NSDictionary *)djSDKServerInfo;
-
-//placeholder_method_declare//
-//placeholder_method_declare//
-//placeholder_method_declare//
-//placeholder_method_declare//
-//placeholder_method_declare//
-//placeholder_method_declare//
 
 @end
 

@@ -16,6 +16,7 @@
 				CFF386780B53F0D85A09791CB57A900F /* PBXTargetDependency */,
 			);
 			name = QY_iOS_SDK;
+			productName = QY_iOS_SDK;
 		};
 		6C0744A84587429FB5869AF4FDACC35F /* QfGameSDK */ = {
 			isa = PBXAggregateTarget;
@@ -27,6 +28,7 @@
 				6468D6EF6CB55A987956E9BDF3B1E3F9 /* PBXTargetDependency */,
 			);
 			name = QfGameSDK;
+			productName = QfGameSDK;
 		};
 		B55FE563084BF0B9075BB021711E7555 /* NIMSDK_LITE */ = {
 			isa = PBXAggregateTarget;
@@ -36,6 +38,7 @@
 			dependencies = (
 			);
 			name = NIMSDK_LITE;
+			productName = NIMSDK_LITE;
 		};
 /* End PBXAggregateTarget section */
 
@@ -135,7 +138,7 @@
 		2D0D40983BB416EF86CEC69B888112F1 /* Pods-QfGameSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QfGameSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		36A84441AEE246DE842EF977E56A785D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		36A84441AEE246DE842EF977E56A785D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4FD4FBFDBFCE9202C262034563BB9408 /* Pods-QfGameSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QfGameSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		5D667DA573D6888C04D109E8918E6788 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		60E383CF6C5BDC85F903E8AA82315F27 /* QY_iOS_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QY_iOS_SDK.release.xcconfig; sourceTree = "<group>"; };
@@ -145,7 +148,7 @@
 		6CE552E9B47F4003E31CF45A641DFD09 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		6FB4C1EB140A0C461D7E42EFE50FD0CC /* libDJSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libDJSDK.a; path = QfGameSDK/Classes/a/libDJSDK.a; sourceTree = "<group>"; };
 		771B67B2F05108D79AC7C9EA504A61D9 /* QYCustomResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = QYCustomResource.bundle; path = SDK/Resources/QYCustomResource.bundle; sourceTree = "<group>"; };
-		7867683C90777D23C02614D5D4B720EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7867683C90777D23C02614D5D4B720EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7BA0E6B4BC1B1E7EEDAE6E89F71E792E /* QfGameSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QfGameSDK.debug.xcconfig; sourceTree = "<group>"; };
 		7DE3BCACF2432B801F1DE016FEB8F11E /* Pods-QfGameSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QfGameSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		81AF426A5A163089D66B3B43830747AF /* Pods-QfGameSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QfGameSDK_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -155,7 +158,7 @@
 		8DF9113A9E0947BE82B5554CDBA8C410 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		8F99D6D3E5B00D16AD7E790ACE8BDA6D /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		9C7CB4BB74BE05B5B2117001C9CCB03C /* Pods-QfGameSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QfGameSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4266828DFABCBB107478232A0A256AE /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		AF47B3860D9FCD019E48AFCC1CA679A2 /* DJSDK2.0.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DJSDK2.0.bundle; path = QfGameSDK/Assets/DJSDK2.0.bundle; sourceTree = "<group>"; };
 		BB293893891BBD9686A1A20CB11D66CE /* Pods-QfGameSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QfGameSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,9 +170,9 @@
 		C506EFE0C023F8FDCF172D5F94CD3F1C /* QYResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = QYResource.bundle; path = SDK/Resources/QYResource.bundle; sourceTree = "<group>"; };
 		C74EBD21798E16D4A85EDF7E48E19D8D /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		D0F290C36FF751205A57FFDA8E24D425 /* Pods-QfGameSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QfGameSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		D203087CE0D2D40923BE5759BDC0E9C7 /* Pods-QfGameSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QfGameSDK_Example"; path = Pods_QfGameSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D203087CE0D2D40923BE5759BDC0E9C7 /* Pods_QfGameSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QfGameSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4EDD285F10DB4805985A27175396B1 /* QYLanguage.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = QYLanguage.bundle; path = SDK/Resources/QYLanguage.bundle; sourceTree = "<group>"; };
-		E2F05C83BB44B83CBBF05B0F1FA58972 /* QfGameSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QfGameSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2F05C83BB44B83CBBF05B0F1FA58972 /* QfGameSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QfGameSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E3E2EA6167C5F1DC6B2A2E1779315B3B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		E5EDDE2F25D0DBE4F9DBFF1286927332 /* QfGameSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QfGameSDK.release.xcconfig; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -345,7 +348,6 @@
 				3812BD91305E78444D0D46FD14122169 /* Resources */,
 				82FD127F7F2E3E19E78955D91C6B5DA7 /* Support Files */,
 			);
-			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -371,7 +373,7 @@
 		CB20FF3A7FA1B548D7B2829736956D8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D203087CE0D2D40923BE5759BDC0E9C7 /* Pods-QfGameSDK_Example */,
+				D203087CE0D2D40923BE5759BDC0E9C7 /* Pods_QfGameSDK_Example.framework */,
 				2C32E954446C64FD4921DF69E0FCCADF /* Pods-QfGameSDK_Tests */,
 				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */,
 			);
@@ -425,7 +427,6 @@
 				EA9708E867027A5F8A853494186A8261 /* Resources */,
 				16528B2D0CDFC74ACF08F6BA37DD6C7D /* Support Files */,
 			);
-			name = QY_iOS_SDK;
 			path = QY_iOS_SDK;
 			sourceTree = "<group>";
 		};
@@ -454,7 +455,6 @@
 				2DBF6A9CB50D790BDAB5D8470D177308 /* Frameworks */,
 				B9C6092F2A201E84255FF2E9273920C5 /* Support Files */,
 			);
-			name = NIMSDK_LITE;
 			path = NIMSDK_LITE;
 			sourceTree = "<group>";
 		};
@@ -529,7 +529,7 @@
 			);
 			name = "Pods-QfGameSDK_Example";
 			productName = Pods_QfGameSDK_Example;
-			productReference = D203087CE0D2D40923BE5759BDC0E9C7 /* Pods-QfGameSDK_Example */;
+			productReference = D203087CE0D2D40923BE5759BDC0E9C7 /* Pods_QfGameSDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B41D34F71CDDB241CBDCF5AF6759EDC6 /* Pods-QfGameSDK_Tests */ = {
@@ -1057,8 +1057,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

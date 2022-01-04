@@ -100,13 +100,13 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYResource.bundle"
   install_resource "${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYLanguage.bundle"
   install_resource "${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYCustomResource.bundle"
-  install_resource "${PODS_ROOT}/../../QfGameSDK/Assets/DJSDK2.0.bundle"
+  install_resource "${PODS_ROOT}/QfGameSDK/QfGameSDK/Assets/DJSDK2.0.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYResource.bundle"
   install_resource "${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYLanguage.bundle"
   install_resource "${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYCustomResource.bundle"
-  install_resource "${PODS_ROOT}/../../QfGameSDK/Assets/DJSDK2.0.bundle"
+  install_resource "${PODS_ROOT}/QfGameSDK/QfGameSDK/Assets/DJSDK2.0.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

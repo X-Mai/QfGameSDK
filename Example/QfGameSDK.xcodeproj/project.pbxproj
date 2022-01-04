@@ -337,7 +337,7 @@
 				"${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYResource.bundle",
 				"${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYLanguage.bundle",
 				"${PODS_ROOT}/QY_iOS_SDK/SDK/Resources/QYCustomResource.bundle",
-				"${PODS_ROOT}/../../QfGameSDK/Assets/DJSDK2.0.bundle",
+				"${PODS_ROOT}/QfGameSDK/QfGameSDK/Assets/DJSDK2.0.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

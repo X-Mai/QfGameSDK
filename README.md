@@ -64,7 +64,7 @@ pod 'QfGameSDK', :git=> 'https://github.com/X-Mai/QfGameSDK.git', :tag =>'2.0.1.
 pod 'QfGameSDK'
 ```
 
-2. Terminal 执行 `pod install` 即可完整集成动态库版本。
+2. Terminal 执行 `pod install` 即可完整集成。
 
 #### 2、URL Scheme设置:
 
