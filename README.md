@@ -42,20 +42,19 @@
 
 #### 1、导入SDK
 
-QfGameSDK 提供两种集成方式：既可以通过 CocoaPods 自动集成，也可以通过手动[[下载(v2.0.1.7_2021.12.16)SDK](https://ios-duojiao-sdk.oss-cn-hangzhou.aliyuncs.com/duojiao-sdk-demo-ios_2.0.1.7_20211216.zip)并集成至您的项目中。
+QfGameSDK 提供两种集成方式：既可以通过 CocoaPods 自动集成，也可以通过手动[[下载(v2.0.1.9_2022.01.21)SDK](https://ios-duojiao-sdk.oss-cn-hangzhou.aliyuncs.com/duojiao-sdk-demo-ios_2.0.1.9_20220121.zip)并集成至您的项目中。
 
 ##### 手动集成
 
-1. 引入SDK_iOS Demo中的静态库(libDJSDK.a)、头文件(DJSDK.h)、资源文件(DJSDK2.0.bundle QYCustomResource.bundle QYLanguage.bundle QYResource.bundle)、动态库(QYSDK.framework NIMSDK.framework)到Xcode工程中。
-2. <font color=#FF0000>添加SDK相关资源进工程后，需要将**NIMSDK.framework**、**QYSDK.framework**对应的Embed(General —> Frameworks, Libraries, and Embedded Content ( >=Xcode11 ) )同时设置为**Embed & Sign** </font>
-3. 添加依赖：libz.tbd、libsqlite3.tbd、UIKit.framework、JavaScriptCore.framework、WebKit.framework、CoreFoundation.framework、CoreTelephony.framework、SystemConfiguration.framework、AdSupport.framework
+1. 引入SDK_iOS Demo中的静态库(libDJSDK.a)、头文件(DJSDK.h)、资源文件(DJSDK2.0.bundle)到Xcode工程中。
+2. 添加依赖：libz.tbd、libsqlite3.tbd、UIKit.framework、JavaScriptCore.framework、WebKit.framework、CoreFoundation.framework、CoreTelephony.framework、SystemConfiguration.framework、AdSupport.framework
 
 ##### 自动集成
 
 1. 在 **Podfile** 文件中加入：
 
 ```ruby
-pod 'QfGameSDK', :git=> 'https://github.com/X-Mai/QfGameSDK.git', :tag =>'2.0.1.7'
+pod 'QfGameSDK', :git=> 'https://github.com/X-Mai/QfGameSDK.git', :tag =>'2.0.1.9'
 ```
 
    或：
@@ -75,10 +74,11 @@ returnapp—djsdk{APP_ID}，其中{APP_ID}为您申请的SDK对应的 "游戏ID"
 #### 3、权限/白名单设置
 
 ```
-//打开qq权限配置(白名单配置)
+//打开QQ、微信权限配置(白名单配置)
 <key>LSApplicationQueriesSchemes</key>
 <array>
     <string>mqq</string>
+    <string>weixin</string>
 </array>
 
 //使用相机权限

@@ -14,27 +14,6 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright 2021 Netease </string>
-			<key>License</key>
-			<string>Copyright</string>
-			<key>Title</key>
-			<string>NIMSDK_LITE</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright 2021 Netease 
-</string>
-			<key>License</key>
-			<string>Copyright</string>
-			<key>Title</key>
-			<string>QY_iOS_SDK</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
 			<string>Copyright (c) 2021 1006052895@qq.com &lt;1006052895@qq.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

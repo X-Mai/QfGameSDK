@@ -1,15 +1,6 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## NIMSDK_LITE
-
-Copyright 2021 Netease 
-
-## QY_iOS_SDK
-
-Copyright 2021 Netease 
-
-
 ## QfGameSDK
 
 Copyright (c) 2021 1006052895@qq.com <1006052895@qq.com>

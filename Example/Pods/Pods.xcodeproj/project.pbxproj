@@ -7,180 +7,112 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		0AE94A3413E9F0EE9F99F5767DF03C6B /* QY_iOS_SDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 3B545D2A8A3BFF36E697BA2351307858 /* Build configuration list for PBXAggregateTarget "QY_iOS_SDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-				CFF386780B53F0D85A09791CB57A900F /* PBXTargetDependency */,
-			);
-			name = QY_iOS_SDK;
-			productName = QY_iOS_SDK;
-		};
 		6C0744A84587429FB5869AF4FDACC35F /* QfGameSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 379465DA3BE8DE52408C193225F1F8E2 /* Build configuration list for PBXAggregateTarget "QfGameSDK" */;
+			buildConfigurationList = B5C126882FBEDA4B76E9B89D42466358 /* Build configuration list for PBXAggregateTarget "QfGameSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
-				C07D12D1EF1504CCAC57DB8D3E909AB0 /* PBXTargetDependency */,
-				6468D6EF6CB55A987956E9BDF3B1E3F9 /* PBXTargetDependency */,
 			);
 			name = QfGameSDK;
-			productName = QfGameSDK;
-		};
-		B55FE563084BF0B9075BB021711E7555 /* NIMSDK_LITE */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 795D0A1C9024633EFC7666DBD9D17B55 /* Build configuration list for PBXAggregateTarget "NIMSDK_LITE" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = NIMSDK_LITE;
-			productName = NIMSDK_LITE;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0B8DC5C8546432998786064C99990A10 /* Pods-QfGameSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED82068CC0F2206F2FB1E0BFD7D3C7 /* Pods-QfGameSDK_Example-dummy.m */; };
-		1D325CFE11FE13A075C835E922BE1017 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B236EC1636775789DF288CC1A08B475 /* SVRadialGradientLayer.m */; };
-		1F4A13FD6675FCFCD9C19DF350348899 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A370047AC8CE278B11779045C3E46F8 /* SVProgressAnimatedView.m */; };
-		430B2FFE02C0A3A2BFA5AFCA6777472C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		07012820BA645F09731554AB24090AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		1D325CFE11FE13A075C835E922BE1017 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDCEBCD015BF403638D02035DF14F07 /* SVRadialGradientLayer.m */; };
+		1F4A13FD6675FCFCD9C19DF350348899 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB7D45B813C6778DAA781458CF26610 /* SVProgressAnimatedView.m */; };
+		2B8B5A3BA2F81FFAA4E392B38CD7A4C9 /* Pods-QfGameSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CED82068CC0F2206F2FB1E0BFD7D3C7 /* Pods-QfGameSDK_Example-dummy.m */; };
+		2B9C36151CCCA217414FD0177DB96552 /* Pods-QfGameSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7CB4BB74BE05B5B2117001C9CCB03C /* Pods-QfGameSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43FC364AD363EC38B4C5F874363DDEB8 /* Pods-QfGameSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2016FA0076FC8862B99DD50F49E8E4D7 /* Pods-QfGameSDK_Tests-dummy.m */; };
 		4602A8150FF7F31023441E72DD287138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
-		4DC032894868226AE220360BADB2C237 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F99D6D3E5B00D16AD7E790ACE8BDA6D /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52BCC3B2F8AE7F59556925DEC603C634 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4266828DFABCBB107478232A0A256AE /* SVIndefiniteAnimatedView.m */; };
+		4DC032894868226AE220360BADB2C237 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFCAF26AC503271808690ACB26F7698 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BCC3B2F8AE7F59556925DEC603C634 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033FAAB808FF1BDA88AEAD79132AF93 /* SVIndefiniteAnimatedView.m */; };
 		53BECA6AA55F80D63F104475EE6524CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */; };
-		6D1E33469FB8FBE812956B0076A7B28F /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF318314C39E907D3BC3A1580293CC48 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D1E33469FB8FBE812956B0076A7B28F /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EB90B2FF0DB98436F5AF509D153D5A3E /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		798FA71F8CAE44D05016FFF767100375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
-		7AFCDD79199B283C23BC6C7C331DE68E /* Pods-QfGameSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7CB4BB74BE05B5B2117001C9CCB03C /* Pods-QfGameSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C17B25F629BD860CD9211BA30ADB944 /* Pods-QfGameSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 840505CB0063025C32D064E839ED6CAA /* Pods-QfGameSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89DF2D9C5EFB02A72EC0CE2138B77F35 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D667DA573D6888C04D109E8918E6788 /* SVProgressHUD.m */; };
-		943B0A1B436BAF4D419574466EF70FB3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CE0D979C9DF4D85C02DA609C1C8BC23 /* SVProgressHUD.bundle */; };
-		C15B3F89E6F83DC9CCB14903FC5D80C5 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C44B84FDE238E9149A4B2406EA7E6624 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E70EBA16751054574A227A6432CCE4B0 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = E3E2EA6167C5F1DC6B2A2E1779315B3B /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F77280E74EB91678AA294E66DD6070E2 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A1745747B1443C93D75710DCA1FF6F /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFD43D91BF1FA4ADF714D56E7A10B2A8 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE552E9B47F4003E31CF45A641DFD09 /* SVProgressHUD-dummy.m */; };
+		89DF2D9C5EFB02A72EC0CE2138B77F35 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC19AC0F98A3A3D20E30FDB51F37C9C /* SVProgressHUD.m */; };
+		943B0A1B436BAF4D419574466EF70FB3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB7AAA2019CE0BCA60BDD3D28426C7 /* SVProgressHUD.bundle */; };
+		C15B3F89E6F83DC9CCB14903FC5D80C5 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4CB59AA510A3604E480EBDFAEBB157 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E70EBA16751054574A227A6432CCE4B0 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5932FA360F3E7767848DD4884529F6 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77280E74EB91678AA294E66DD6070E2 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 261FD2BC14513CCC5C040943AD6030E6 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFD43D91BF1FA4ADF714D56E7A10B2A8 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF967441BB9ED1CB33E7054CF37B00C /* SVProgressHUD-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5161DCD7D4008818DDEFFA5DCA9DB431 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AE94A3413E9F0EE9F99F5767DF03C6B;
-			remoteInfo = QY_iOS_SDK;
-		};
-		806338A265B8AACD3C87DA48E5628C47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0AE94A3413E9F0EE9F99F5767DF03C6B;
-			remoteInfo = QY_iOS_SDK;
-		};
-		937AFF6DBBFE05F4B7DAA82C047D4CA0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B55FE563084BF0B9075BB021711E7555;
-			remoteInfo = NIMSDK_LITE;
-		};
-		937DACA2FD324FF4B3C5AE54196A919E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B55FE563084BF0B9075BB021711E7555;
-			remoteInfo = NIMSDK_LITE;
-		};
-		ACC7708BF2D5AB34742545490B5C7BA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
-			remoteInfo = SVProgressHUD;
-		};
-		B3E2C79F5057101421DC5982EC891416 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B55FE563084BF0B9075BB021711E7555;
-			remoteInfo = NIMSDK_LITE;
-		};
-		CB0BA2B46BE45195EA87301B7E66D59F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6C0744A84587429FB5869AF4FDACC35F;
-			remoteInfo = QfGameSDK;
-		};
-		CB24BEB6D77FE11C856A9E45CA7FF11B /* PBXContainerItemProxy */ = {
+		063FDC90BBADA4B3C4F511FDDB9E05AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3724A0F6D095ED84D0996B8F1D9AE06B;
 			remoteInfo = "Pods-QfGameSDK_Example";
 		};
+		14E9F1A3F87676500D14A81986D611E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		45B385114C82D4D6E3484392D9A8DEFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0744A84587429FB5869AF4FDACC35F;
+			remoteInfo = QfGameSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00E3FF0CD9F0002525F2BA68DBD46309 /* Pods-QfGameSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QfGameSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		0168A6CA92ECB4195ACFAF04E7EE4EED /* NIMSDK_LITE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NIMSDK_LITE.debug.xcconfig; sourceTree = "<group>"; };
-		04E6FB83C33A665576F51A24EF42B0F5 /* QYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QYSDK.framework; path = SDK/QYSDK.framework; sourceTree = "<group>"; };
 		06CB6F3EA35FB6AFB6C6830D0DBAF947 /* Pods-QfGameSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QfGameSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		09F4534B6F7B6851EE24BAA5ED788738 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		0CE0D979C9DF4D85C02DA609C1C8BC23 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		0CBB7AAA2019CE0BCA60BDD3D28426C7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		11356237545ADC636BCBC05E56C93848 /* Pods-QfGameSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QfGameSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		170AC2C7B8C83EBAA92A245D02EB658D /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		2016FA0076FC8862B99DD50F49E8E4D7 /* Pods-QfGameSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QfGameSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		201FD9998F7D784C0DF0AAD77471A587 /* DJSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJSDK.h; path = QfGameSDK/Classes/DJSDK.h; sourceTree = "<group>"; };
+		261FD2BC14513CCC5C040943AD6030E6 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		2C32E954446C64FD4921DF69E0FCCADF /* Pods-QfGameSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QfGameSDK_Tests"; path = Pods_QfGameSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CED82068CC0F2206F2FB1E0BFD7D3C7 /* Pods-QfGameSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QfGameSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		2D0D40983BB416EF86CEC69B888112F1 /* Pods-QfGameSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QfGameSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		31C25B5E4BEFEF8776C7DE1C3C1EA7B2 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		36A84441AEE246DE842EF977E56A785D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		36A84441AEE246DE842EF977E56A785D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4709B96B2168631CAE54397DD7A966E4 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		4FD4FBFDBFCE9202C262034563BB9408 /* Pods-QfGameSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QfGameSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		5D667DA573D6888C04D109E8918E6788 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		60E383CF6C5BDC85F903E8AA82315F27 /* QY_iOS_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QY_iOS_SDK.release.xcconfig; sourceTree = "<group>"; };
 		618B9BEBE33776C1310538419C607EDA /* Pods-QfGameSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QfGameSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A370047AC8CE278B11779045C3E46F8 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		6B236EC1636775789DF288CC1A08B475 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		6CE552E9B47F4003E31CF45A641DFD09 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		6FB4C1EB140A0C461D7E42EFE50FD0CC /* libDJSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libDJSDK.a; path = QfGameSDK/Classes/a/libDJSDK.a; sourceTree = "<group>"; };
-		771B67B2F05108D79AC7C9EA504A61D9 /* QYCustomResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = QYCustomResource.bundle; path = SDK/Resources/QYCustomResource.bundle; sourceTree = "<group>"; };
-		7867683C90777D23C02614D5D4B720EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7033FAAB808FF1BDA88AEAD79132AF93 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		7867683C90777D23C02614D5D4B720EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7BA0E6B4BC1B1E7EEDAE6E89F71E792E /* QfGameSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QfGameSDK.debug.xcconfig; sourceTree = "<group>"; };
 		7DE3BCACF2432B801F1DE016FEB8F11E /* Pods-QfGameSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QfGameSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		81AF426A5A163089D66B3B43830747AF /* Pods-QfGameSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QfGameSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		840505CB0063025C32D064E839ED6CAA /* Pods-QfGameSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QfGameSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		84A26FE39207437591D536142A256556 /* Pods-QfGameSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QfGameSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		85A1745747B1443C93D75710DCA1FF6F /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		8DF9113A9E0947BE82B5554CDBA8C410 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		8F99D6D3E5B00D16AD7E790ACE8BDA6D /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		8EC19AC0F98A3A3D20E30FDB51F37C9C /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		9AF967441BB9ED1CB33E7054CF37B00C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		9C7CB4BB74BE05B5B2117001C9CCB03C /* Pods-QfGameSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QfGameSDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4266828DFABCBB107478232A0A256AE /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AF47B3860D9FCD019E48AFCC1CA679A2 /* DJSDK2.0.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DJSDK2.0.bundle; path = QfGameSDK/Assets/DJSDK2.0.bundle; sourceTree = "<group>"; };
 		BB293893891BBD9686A1A20CB11D66CE /* Pods-QfGameSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QfGameSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BF318314C39E907D3BC3A1580293CC48 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		BFFD455A460899E8A2D828B05B9DC586 /* NIMSDK_LITE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NIMSDK_LITE.release.xcconfig; sourceTree = "<group>"; };
 		C1ECC81B3492755B49C02F691E325E07 /* Pods-QfGameSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QfGameSDK_Example.modulemap"; sourceTree = "<group>"; };
-		C44B84FDE238E9149A4B2406EA7E6624 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		C4766EE69599AA793FE4C5FFC55AFEA4 /* QY_iOS_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QY_iOS_SDK.debug.xcconfig; sourceTree = "<group>"; };
-		C506EFE0C023F8FDCF172D5F94CD3F1C /* QYResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = QYResource.bundle; path = SDK/Resources/QYResource.bundle; sourceTree = "<group>"; };
-		C74EBD21798E16D4A85EDF7E48E19D8D /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		C800E52EA872DCB5D5AD9142B95AB768 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		D0F290C36FF751205A57FFDA8E24D425 /* Pods-QfGameSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QfGameSDK_Example-resources.sh"; sourceTree = "<group>"; };
-		D203087CE0D2D40923BE5759BDC0E9C7 /* Pods_QfGameSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QfGameSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA4EDD285F10DB4805985A27175396B1 /* QYLanguage.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = QYLanguage.bundle; path = SDK/Resources/QYLanguage.bundle; sourceTree = "<group>"; };
-		E2F05C83BB44B83CBBF05B0F1FA58972 /* QfGameSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QfGameSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E3E2EA6167C5F1DC6B2A2E1779315B3B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		D203087CE0D2D40923BE5759BDC0E9C7 /* Pods-QfGameSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QfGameSDK_Example"; path = Pods_QfGameSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFCAF26AC503271808690ACB26F7698 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		E2F05C83BB44B83CBBF05B0F1FA58972 /* QfGameSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QfGameSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E3C1BC2E79BBB16958C9E57662D41DA9 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		E5EDDE2F25D0DBE4F9DBFF1286927332 /* QfGameSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QfGameSDK.release.xcconfig; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA8D3D8D2B4BEC27C391B542D73EA19E /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		EB90B2FF0DB98436F5AF509D153D5A3E /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		EDE462B0E799B597DF83E15FF14A2BD3 /* Pods-QfGameSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QfGameSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F0CA03EE7A73751DC4FEA9631A11F548 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		F3D05302DC10B9059E99D717D0E48EE6 /* NIMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIMSDK.framework; path = NIMSDK/NIMSDK.framework; sourceTree = "<group>"; };
+		EF4CB59AA510A3604E480EBDFAEBB157 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		FA5932FA360F3E7767848DD4884529F6 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		FD8F2F838184B40B41455D29C879E3B4 /* Pods-QfGameSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QfGameSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FDB7D45B813C6778DAA781458CF26610 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		FEDCEBCD015BF403638D02035DF14F07 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,20 +124,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B163127ABBE8E7D18DF6E37F7939F2F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07012820BA645F09731554AB24090AA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E389FF082B036E756B0679583C1BE62E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				798FA71F8CAE44D05016FFF767100375 /* Foundation.framework in Frameworks */,
 				53BECA6AA55F80D63F104475EE6524CA /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA20BC0490D3602535A2D7D121120C2A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				430B2FFE02C0A3A2BFA5AFCA6777472C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,14 +152,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		16528B2D0CDFC74ACF08F6BA37DD6C7D /* Support Files */ = {
+		2224F2A9FC55133AC8EC77539EF3EE73 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C4766EE69599AA793FE4C5FFC55AFEA4 /* QY_iOS_SDK.debug.xcconfig */,
-				60E383CF6C5BDC85F903E8AA82315F27 /* QY_iOS_SDK.release.xcconfig */,
+				4709B96B2168631CAE54397DD7A966E4 /* SVProgressHUD.modulemap */,
+				9AF967441BB9ED1CB33E7054CF37B00C /* SVProgressHUD-dummy.m */,
+				170AC2C7B8C83EBAA92A245D02EB658D /* SVProgressHUD-Info.plist */,
+				E3C1BC2E79BBB16958C9E57662D41DA9 /* SVProgressHUD-prefix.pch */,
+				DBFCAF26AC503271808690ACB26F7698 /* SVProgressHUD-umbrella.h */,
+				31C25B5E4BEFEF8776C7DE1C3C1EA7B2 /* SVProgressHUD.debug.xcconfig */,
+				C800E52EA872DCB5D5AD9142B95AB768 /* SVProgressHUD.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/QY_iOS_SDK";
+			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
 		24253380F062972A0844B86B2B45DC80 /* Pod */ = {
@@ -238,22 +175,6 @@
 				36A84441AEE246DE842EF977E56A785D /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		2DBF6A9CB50D790BDAB5D8470D177308 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F3D05302DC10B9059E99D717D0E48EE6 /* NIMSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3812BD91305E78444D0D46FD14122169 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0CE0D979C9DF4D85C02DA609C1C8BC23 /* SVProgressHUD.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		537EF1691408C4F63C18003A31AF7994 /* Pods-QfGameSDK_Example */ = {
@@ -298,29 +219,6 @@
 			path = "Target Support Files/Pods-QfGameSDK_Tests";
 			sourceTree = "<group>";
 		};
-		82FD127F7F2E3E19E78955D91C6B5DA7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EA8D3D8D2B4BEC27C391B542D73EA19E /* SVProgressHUD.modulemap */,
-				6CE552E9B47F4003E31CF45A641DFD09 /* SVProgressHUD-dummy.m */,
-				F0CA03EE7A73751DC4FEA9631A11F548 /* SVProgressHUD-Info.plist */,
-				8DF9113A9E0947BE82B5554CDBA8C410 /* SVProgressHUD-prefix.pch */,
-				8F99D6D3E5B00D16AD7E790ACE8BDA6D /* SVProgressHUD-umbrella.h */,
-				09F4534B6F7B6851EE24BAA5ED788738 /* SVProgressHUD.debug.xcconfig */,
-				C74EBD21798E16D4A85EDF7E48E19D8D /* SVProgressHUD.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SVProgressHUD";
-			sourceTree = "<group>";
-		};
-		993465ABEA715E72DECDAD9B6917DF1F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				04E6FB83C33A665576F51A24EF42B0F5 /* QYSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		9DB786E8D643445E3D8BF948EF52863E /* QfGameSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,31 +232,30 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		9E72A6E469A98AAD108339076D134047 /* SVProgressHUD */ = {
+		A1FC91EE57D117D1692B9FE4721A7580 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E3E2EA6167C5F1DC6B2A2E1779315B3B /* SVIndefiniteAnimatedView.h */,
-				A4266828DFABCBB107478232A0A256AE /* SVIndefiniteAnimatedView.m */,
-				85A1745747B1443C93D75710DCA1FF6F /* SVProgressAnimatedView.h */,
-				6A370047AC8CE278B11779045C3E46F8 /* SVProgressAnimatedView.m */,
-				C44B84FDE238E9149A4B2406EA7E6624 /* SVProgressHUD.h */,
-				5D667DA573D6888C04D109E8918E6788 /* SVProgressHUD.m */,
-				BF318314C39E907D3BC3A1580293CC48 /* SVRadialGradientLayer.h */,
-				6B236EC1636775789DF288CC1A08B475 /* SVRadialGradientLayer.m */,
-				3812BD91305E78444D0D46FD14122169 /* Resources */,
-				82FD127F7F2E3E19E78955D91C6B5DA7 /* Support Files */,
+				0CBB7AAA2019CE0BCA60BDD3D28426C7 /* SVProgressHUD.bundle */,
 			);
-			path = SVProgressHUD;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		B9C6092F2A201E84255FF2E9273920C5 /* Support Files */ = {
+		C6192831BFB6479459CD82FE67BB3EDA /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				0168A6CA92ECB4195ACFAF04E7EE4EED /* NIMSDK_LITE.debug.xcconfig */,
-				BFFD455A460899E8A2D828B05B9DC586 /* NIMSDK_LITE.release.xcconfig */,
+				FA5932FA360F3E7767848DD4884529F6 /* SVIndefiniteAnimatedView.h */,
+				7033FAAB808FF1BDA88AEAD79132AF93 /* SVIndefiniteAnimatedView.m */,
+				261FD2BC14513CCC5C040943AD6030E6 /* SVProgressAnimatedView.h */,
+				FDB7D45B813C6778DAA781458CF26610 /* SVProgressAnimatedView.m */,
+				EF4CB59AA510A3604E480EBDFAEBB157 /* SVProgressHUD.h */,
+				8EC19AC0F98A3A3D20E30FDB51F37C9C /* SVProgressHUD.m */,
+				EB90B2FF0DB98436F5AF509D153D5A3E /* SVRadialGradientLayer.h */,
+				FEDCEBCD015BF403638D02035DF14F07 /* SVRadialGradientLayer.m */,
+				A1FC91EE57D117D1692B9FE4721A7580 /* Resources */,
+				2224F2A9FC55133AC8EC77539EF3EE73 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/NIMSDK_LITE";
+			name = SVProgressHUD;
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 		CA61EFF6C0E8D1B9090C1E2F9FB1DD08 /* Targets Support Files */ = {
@@ -373,7 +270,7 @@
 		CB20FF3A7FA1B548D7B2829736956D8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D203087CE0D2D40923BE5759BDC0E9C7 /* Pods_QfGameSDK_Example.framework */,
+				D203087CE0D2D40923BE5759BDC0E9C7 /* Pods-QfGameSDK_Example */,
 				2C32E954446C64FD4921DF69E0FCCADF /* Pods-QfGameSDK_Tests */,
 				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */,
 			);
@@ -386,7 +283,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				579602A8750DE3D07860BB5C6298A2C8 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				CF50E3EBAD2295586469C9718D5F13CD /* Pods */,
+				D0F28EFC8C9E325880381D586C3CA919 /* Pods */,
 				CB20FF3A7FA1B548D7B2829736956D8A /* Products */,
 				CA61EFF6C0E8D1B9090C1E2F9FB1DD08 /* Targets Support Files */,
 			);
@@ -402,16 +299,6 @@
 			path = "Example/Pods/Target Support Files/QfGameSDK";
 			sourceTree = "<group>";
 		};
-		CF50E3EBAD2295586469C9718D5F13CD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F41C816829595D9E6278F49A1A8776BF /* NIMSDK_LITE */,
-				D2AE2280188D0F5A8D08332FA38F6A00 /* QY_iOS_SDK */,
-				9E72A6E469A98AAD108339076D134047 /* SVProgressHUD */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		D0C09D37D54BDCD05098EFBEBA72E27A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,14 +307,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D2AE2280188D0F5A8D08332FA38F6A00 /* QY_iOS_SDK */ = {
+		D0F28EFC8C9E325880381D586C3CA919 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				993465ABEA715E72DECDAD9B6917DF1F /* Frameworks */,
-				EA9708E867027A5F8A853494186A8261 /* Resources */,
-				16528B2D0CDFC74ACF08F6BA37DD6C7D /* Support Files */,
+				C6192831BFB6479459CD82FE67BB3EDA /* SVProgressHUD */,
 			);
-			path = QY_iOS_SDK;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D325A42620E7427FB70FB046C7B7B240 /* iOS */ = {
@@ -439,33 +324,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EA9708E867027A5F8A853494186A8261 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				771B67B2F05108D79AC7C9EA504A61D9 /* QYCustomResource.bundle */,
-				DA4EDD285F10DB4805985A27175396B1 /* QYLanguage.bundle */,
-				C506EFE0C023F8FDCF172D5F94CD3F1C /* QYResource.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		F41C816829595D9E6278F49A1A8776BF /* NIMSDK_LITE */ = {
-			isa = PBXGroup;
-			children = (
-				2DBF6A9CB50D790BDAB5D8470D177308 /* Frameworks */,
-				B9C6092F2A201E84255FF2E9273920C5 /* Support Files */,
-			);
-			path = NIMSDK_LITE;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C3BF716508F492F02C35763A85DCBE0 /* Headers */ = {
+		5652EEA88B781430A3B5F75C3A4FFDB7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFCDD79199B283C23BC6C7C331DE68E /* Pods-QfGameSDK_Example-umbrella.h in Headers */,
+				2B9C36151CCCA217414FD0177DB96552 /* Pods-QfGameSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,24 +378,22 @@
 		};
 		3724A0F6D095ED84D0996B8F1D9AE06B /* Pods-QfGameSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84506F948B33E0B5613C427C97C4CD57 /* Build configuration list for PBXNativeTarget "Pods-QfGameSDK_Example" */;
+			buildConfigurationList = CAB537C8CD1E2F9CE75D0E613AC0DF35 /* Build configuration list for PBXNativeTarget "Pods-QfGameSDK_Example" */;
 			buildPhases = (
-				0C3BF716508F492F02C35763A85DCBE0 /* Headers */,
-				B5F0166F4B5BDFB83F66D4C4A48ADDFA /* Sources */,
-				FA20BC0490D3602535A2D7D121120C2A /* Frameworks */,
-				FB5624E420BC80E6D42AE6640700A11D /* Resources */,
+				5652EEA88B781430A3B5F75C3A4FFDB7 /* Headers */,
+				ABCFB321900EB45BE8470D810395B62A /* Sources */,
+				B163127ABBE8E7D18DF6E37F7939F2F9 /* Frameworks */,
+				2799144077A1B61480F20DC8140E2104 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E5202080665E642BF7FE60DC9A50365A /* PBXTargetDependency */,
-				DE752747A82FAB514C25A082E15D6159 /* PBXTargetDependency */,
-				F7D007337DB39A044AEEFC7CE4C79895 /* PBXTargetDependency */,
-				BDEE3C019B7C79367E41390426E57B6E /* PBXTargetDependency */,
+				EDC0F0EDB19475A24D5064F3DD28AF28 /* PBXTargetDependency */,
+				56883F53562C51EC99A5CE505287F528 /* PBXTargetDependency */,
 			);
 			name = "Pods-QfGameSDK_Example";
 			productName = Pods_QfGameSDK_Example;
-			productReference = D203087CE0D2D40923BE5759BDC0E9C7 /* Pods_QfGameSDK_Example.framework */;
+			productReference = D203087CE0D2D40923BE5759BDC0E9C7 /* Pods-QfGameSDK_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		B41D34F71CDDB241CBDCF5AF6759EDC6 /* Pods-QfGameSDK_Tests */ = {
@@ -544,7 +408,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EF71835E62AE571DC6EB6B5B43A18584 /* PBXTargetDependency */,
+				1328BF5FBA378EEC62C4F42B134D600E /* PBXTargetDependency */,
 			);
 			name = "Pods-QfGameSDK_Tests";
 			productName = Pods_QfGameSDK_Tests;
@@ -573,11 +437,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B55FE563084BF0B9075BB021711E7555 /* NIMSDK_LITE */,
 				3724A0F6D095ED84D0996B8F1D9AE06B /* Pods-QfGameSDK_Example */,
 				B41D34F71CDDB241CBDCF5AF6759EDC6 /* Pods-QfGameSDK_Tests */,
 				6C0744A84587429FB5869AF4FDACC35F /* QfGameSDK */,
-				0AE94A3413E9F0EE9F99F5767DF03C6B /* QY_iOS_SDK */,
 				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 			);
 		};
@@ -591,18 +453,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2799144077A1B61480F20DC8140E2104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4CCC3CC21F770E272C54B18DDDE6DA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				943B0A1B436BAF4D419574466EF70FB3 /* SVProgressHUD.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB5624E420BC80E6D42AE6640700A11D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,81 +491,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5F0166F4B5BDFB83F66D4C4A48ADDFA /* Sources */ = {
+		ABCFB321900EB45BE8470D810395B62A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8DC5C8546432998786064C99990A10 /* Pods-QfGameSDK_Example-dummy.m in Sources */,
+				2B8B5A3BA2F81FFAA4E392B38CD7A4C9 /* Pods-QfGameSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6468D6EF6CB55A987956E9BDF3B1E3F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QY_iOS_SDK;
-			target = 0AE94A3413E9F0EE9F99F5767DF03C6B /* QY_iOS_SDK */;
-			targetProxy = 806338A265B8AACD3C87DA48E5628C47 /* PBXContainerItemProxy */;
-		};
-		BDEE3C019B7C79367E41390426E57B6E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = ACC7708BF2D5AB34742545490B5C7BA2 /* PBXContainerItemProxy */;
-		};
-		C07D12D1EF1504CCAC57DB8D3E909AB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NIMSDK_LITE;
-			target = B55FE563084BF0B9075BB021711E7555 /* NIMSDK_LITE */;
-			targetProxy = 937AFF6DBBFE05F4B7DAA82C047D4CA0 /* PBXContainerItemProxy */;
-		};
-		CFF386780B53F0D85A09791CB57A900F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NIMSDK_LITE;
-			target = B55FE563084BF0B9075BB021711E7555 /* NIMSDK_LITE */;
-			targetProxy = B3E2C79F5057101421DC5982EC891416 /* PBXContainerItemProxy */;
-		};
-		DE752747A82FAB514C25A082E15D6159 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QY_iOS_SDK;
-			target = 0AE94A3413E9F0EE9F99F5767DF03C6B /* QY_iOS_SDK */;
-			targetProxy = 5161DCD7D4008818DDEFFA5DCA9DB431 /* PBXContainerItemProxy */;
-		};
-		E5202080665E642BF7FE60DC9A50365A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NIMSDK_LITE;
-			target = B55FE563084BF0B9075BB021711E7555 /* NIMSDK_LITE */;
-			targetProxy = 937DACA2FD324FF4B3C5AE54196A919E /* PBXContainerItemProxy */;
-		};
-		EF71835E62AE571DC6EB6B5B43A18584 /* PBXTargetDependency */ = {
+		1328BF5FBA378EEC62C4F42B134D600E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QfGameSDK_Example";
 			target = 3724A0F6D095ED84D0996B8F1D9AE06B /* Pods-QfGameSDK_Example */;
-			targetProxy = CB24BEB6D77FE11C856A9E45CA7FF11B /* PBXContainerItemProxy */;
+			targetProxy = 063FDC90BBADA4B3C4F511FDDB9E05AE /* PBXContainerItemProxy */;
 		};
-		F7D007337DB39A044AEEFC7CE4C79895 /* PBXTargetDependency */ = {
+		56883F53562C51EC99A5CE505287F528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 14E9F1A3F87676500D14A81986D611E8 /* PBXContainerItemProxy */;
+		};
+		EDC0F0EDB19475A24D5064F3DD28AF28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QfGameSDK;
 			target = 6C0744A84587429FB5869AF4FDACC35F /* QfGameSDK */;
-			targetProxy = CB0BA2B46BE45195EA87301B7E66D59F /* PBXContainerItemProxy */;
+			targetProxy = 45B385114C82D4D6E3484392D9A8DEFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06C90CCF983C1701EAEE6453FA869BCC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0168A6CA92ECB4195ACFAF04E7EE4EED /* NIMSDK_LITE.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		15D78BE17C4494F049C96A7DE7834C21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84A26FE39207437591D536142A256556 /* Pods-QfGameSDK_Tests.debug.xcconfig */;
@@ -735,39 +554,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		2288B941375109D00D99DCF4136BC6B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11356237545ADC636BCBC05E56C93848 /* Pods-QfGameSDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QfGameSDK_Example/Pods-QfGameSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QfGameSDK_Example/Pods-QfGameSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -835,22 +621,9 @@
 			};
 			name = Debug;
 		};
-		2BA6C288A32953C4AF39CB6EF5D952C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4766EE69599AA793FE4C5FFC55AFEA4 /* QY_iOS_SDK.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		5B1F32B1697E08EC0BBE9CC2EF452A7C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C74EBD21798E16D4A85EDF7E48E19D8D /* SVProgressHUD.release.xcconfig */;
+			baseConfigurationReference = C800E52EA872DCB5D5AD9142B95AB768 /* SVProgressHUD.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -879,7 +652,21 @@
 			};
 			name = Release;
 		};
-		7A81E58D6318940539EDD5A40D145D72 /* Debug */ = {
+		63DFB23E704E0F308877B2340F3F9598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EDDE2F25D0DBE4F9DBFF1286927332 /* QfGameSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78075E7CC5CD3382622A721662FA93CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FD8F2F838184B40B41455D29C879E3B4 /* Pods-QfGameSDK_Example.debug.xcconfig */;
 			buildSettings = {
@@ -911,37 +698,9 @@
 			};
 			name = Debug;
 		};
-		7FB72B099CFB612F497B16A63D76F0E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5EDDE2F25D0DBE4F9DBFF1286927332 /* QfGameSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		82B633771671F94C5F29E01F63C285C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFFD455A460899E8A2D828B05B9DC586 /* NIMSDK_LITE.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		A755470D6710B6CDCA95BE57B350C587 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09F4534B6F7B6851EE24BAA5ED788738 /* SVProgressHUD.debug.xcconfig */;
+			baseConfigurationReference = 31C25B5E4BEFEF8776C7DE1C3C1EA7B2 /* SVProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1057,27 +816,47 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		D6327B3C5E4D44D579BBC53AC4FA3B08 /* Release */ = {
+		DDDFEF7B4DFFB3E5AD54C858FF46F0E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60E383CF6C5BDC85F903E8AA82315F27 /* QY_iOS_SDK.release.xcconfig */;
+			baseConfigurationReference = 11356237545ADC636BCBC05E56C93848 /* Pods-QfGameSDK_Example.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QfGameSDK_Example/Pods-QfGameSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QfGameSDK_Example/Pods-QfGameSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E9C6693DD3D2CEEBED14AE759C7B5E90 /* Debug */ = {
+		E6DB2B35ACE23CF43886126DCAD6F258 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7BA0E6B4BC1B1E7EEDAE6E89F71E792E /* QfGameSDK.debug.xcconfig */;
 			buildSettings = {
@@ -1093,38 +872,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		379465DA3BE8DE52408C193225F1F8E2 /* Build configuration list for PBXAggregateTarget "QfGameSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9C6693DD3D2CEEBED14AE759C7B5E90 /* Debug */,
-				7FB72B099CFB612F497B16A63D76F0E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B545D2A8A3BFF36E697BA2351307858 /* Build configuration list for PBXAggregateTarget "QY_iOS_SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2BA6C288A32953C4AF39CB6EF5D952C2 /* Debug */,
-				D6327B3C5E4D44D579BBC53AC4FA3B08 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		795D0A1C9024633EFC7666DBD9D17B55 /* Build configuration list for PBXAggregateTarget "NIMSDK_LITE" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				06C90CCF983C1701EAEE6453FA869BCC /* Debug */,
-				82B633771671F94C5F29E01F63C285C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1138,20 +890,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84506F948B33E0B5613C427C97C4CD57 /* Build configuration list for PBXNativeTarget "Pods-QfGameSDK_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7A81E58D6318940539EDD5A40D145D72 /* Debug */,
-				2288B941375109D00D99DCF4136BC6B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AA16B10BB09FF3C5C81DB12D0FB5C4CF /* Build configuration list for PBXNativeTarget "Pods-QfGameSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15D78BE17C4494F049C96A7DE7834C21 /* Debug */,
 				B876AB3229161DFBCEE084FFDF0E3D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5C126882FBEDA4B76E9B89D42466358 /* Build configuration list for PBXAggregateTarget "QfGameSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6DB2B35ACE23CF43886126DCAD6F258 /* Debug */,
+				63DFB23E704E0F308877B2340F3F9598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB537C8CD1E2F9CE75D0E613AC0DF35 /* Build configuration list for PBXNativeTarget "Pods-QfGameSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78075E7CC5CD3382622A721662FA93CD /* Debug */,
+				DDDFEF7B4DFFB3E5AD54C858FF46F0E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

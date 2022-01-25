@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QfGameSDK'#名称
-  s.version          = '2.0.1.7'#版本号
-  s.summary          = '七风游戏访客端 iOS SDK.'#简短介绍，下面是详细介绍
+  s.version          = '2.0.1.9'#版本号
+  s.summary          = '七风游戏 iOS SDK.'#简短介绍，下面是详细介绍
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -42,10 +42,12 @@ TODO: Add long description of the pod here.
 #  s.framework = 'AVFoundation', 'UIKit', 'SystemConfiguration', 'MobileCoreServices', 'WebKit', 'CoreTelephony', 'CoreText', 'CoreMedia', 'ImageIO', 'CoreMotion', 'AudioToolbox', 'Photos', 'AssetsLibrary', 'Accelerate','GameKit','JavaScriptCore','CoreFoundation','AdSupport'
 #  s.libraries = 'c++', 'z','sqlite3.0','xml2'
     
-    
-  #20211229 使用七鱼对应的非本地资源管理
-  s.dependency 'QY_iOS_SDK', '~>6.11.0'#通过Pod依赖的第三方库，多个库就多个s.dependency
-  s.dependency 'NIMSDK_LITE', '8.8.3'
+
+  #20220124 去掉七鱼原生SDK依赖库集成方式，改为H5接入方式
+#  #20211229 使用七鱼对应的非本地资源管理
+#  s.dependency 'QY_iOS_SDK', '~>6.11.0'#通过Pod依赖的第三方库，多个库就多个s.dependency
+#  s.dependency 'NIMSDK_LITE', '8.8.3'
+  
   s.framework = 'GameKit','JavaScriptCore','CoreFoundation','AdSupport'#如果使用pod管理QY_iOS_SDK情况下，需要添加自己开发的.a静态库对应依赖framework库
   s.resource = 'QfGameSDK/Assets/DJSDK2.0.bundle'#如果使用pod管理QY_iOS_SDK情况下，需要添加自己开发的.a静态库对应依赖的资源文件
 
