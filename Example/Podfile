@@ -3,9 +3,9 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'QfGameSDK_Example' do
-  pod 'QfGameSDK', :path => '../'
+#  pod 'QfGameSDK', :path => '../'
 #  pod 'QfGameSDK'
-#  pod 'QfGameSDK', :git=> 'https://github.com/X-Mai/QfGameSDK.git', :tag =>'2.0.1.9'
+  pod 'QfGameSDK', :git=> 'https://github.com/X-Mai/QfGameSDK.git', :tag =>'2.0.1.9.1'
 
   pod 'SVProgressHUD'
   target 'QfGameSDK_Tests' do

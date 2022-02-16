@@ -213,7 +213,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				9C157AF1F4194A2639D110AE /* [CP] Embed Pods Frameworks */,
-				5F5E1A987D276200429585D1 /* [CP] Copy Pods Resources */,
+				4FD1C58246549638E65D3AB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,14 +327,14 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5F5E1A987D276200429585D1 /* [CP] Copy Pods Resources */ = {
+		4FD1C58246549638E65D3AB4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QfGameSDK_Example/Pods-QfGameSDK_Example-resources.sh",
-				"${PODS_ROOT}/../../QfGameSDK/Assets/DJSDK2.0.bundle",
+				"${PODS_ROOT}/QfGameSDK/QfGameSDK/Assets/DJSDK2.0.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

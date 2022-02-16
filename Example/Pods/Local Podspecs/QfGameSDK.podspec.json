@@ -1,6 +1,6 @@
 {
   "name": "QfGameSDK",
-  "version": "2.0.1.9",
+  "version": "2.0.1.9.1",
   "summary": "七风游戏 iOS SDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://www.119you.com/",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/X-Mai/QfGameSDK.git",
-    "tag": "2.0.1.9"
+    "tag": "2.0.1.9.1"
   },
   "platforms": {
     "ios": "9.0"
