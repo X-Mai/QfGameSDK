@@ -1,6 +1,6 @@
 {
   "name": "QfGameSDK",
-  "version": "2.0.1.9.1",
+  "version": "2.0.2.0",
   "summary": "七风游戏 iOS SDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://www.119you.com/",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/X-Mai/QfGameSDK.git",
-    "tag": "2.0.1.9.1"
+    "tag": "2.0.2.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -26,6 +26,8 @@
     "AdSupport"
   ],
   "resources": "QfGameSDK/Assets/DJSDK2.0.bundle",
-  "vendored_libraries": "**/libDJSDK.a",
+  "ios": {
+    "vendored_libraries": "QfGameSDK/library/libDJSDK.a"
+  },
   "requires_arc": true
 }

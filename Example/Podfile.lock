@@ -1,9 +1,9 @@
 PODS:
-  - QfGameSDK (2.0.1.9.1)
+  - QfGameSDK (2.0.2.0)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - QfGameSDK (from `https://github.com/X-Mai/QfGameSDK.git`, tag `2.0.1.9.1`)
+  - QfGameSDK (from `../`)
   - SVProgressHUD
 
 SPEC REPOS:
@@ -12,18 +12,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   QfGameSDK:
-    :git: https://github.com/X-Mai/QfGameSDK.git
-    :tag: 2.0.1.9.1
-
-CHECKOUT OPTIONS:
-  QfGameSDK:
-    :git: https://github.com/X-Mai/QfGameSDK.git
-    :tag: 2.0.1.9.1
+    :path: "../"
 
 SPEC CHECKSUMS:
-  QfGameSDK: 8ffa1b070844b516d99236852a7a87c32768ff0e
+  QfGameSDK: 3fcef8b1b5588d6142a5f42f2a94c48e9fa428a0
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 90389b723aeb0ef97513ec149604786d069e476e
+PODFILE CHECKSUM: 1199dcc25578af4ea1e61e6fe4f3fee15d9aca50
 
 COCOAPODS: 1.11.2

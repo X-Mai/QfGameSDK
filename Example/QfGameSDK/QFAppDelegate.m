@@ -31,7 +31,7 @@ typedef enum : NSUInteger {
     [DJSDK djLaunchWithAppID:@"54"
                djAppClientID:@"54"
               djAPPClientKEY:@"c96adb66949e0def3927a9991bf4c328"
-                djSDKVerSion:@"2.0.1.7"];
+                djSDKVerSion:@"2.0.2.0"];
     
     [DJSDK djSetShowDebugLog:YES];
     
